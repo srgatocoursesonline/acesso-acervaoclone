@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #121212; /* Cor de fundo para tema dark */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 100%; /* Ajustar conforme necessário */
+}
+
+header {
+    font-size: 2em; /* Aumenta a fonte do cabeçalho */
+    color: #0f0; /* Cor do texto em neon */
+    text-shadow: 0 0 10px #0f0; /* Sombra para efeito neon */
+    margin-bottom: 20px;
+}
+
+input#accessCode {
+    width: 50%; /* Ajustar conforme necessário */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button#submitButton {
+    padding: 10px 20px;
+    background-color: #333; /* Botão mais escuro para o tema dark */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Estilo adicional para garantir que o cabeçalho esteja no topo da página */
+header {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
